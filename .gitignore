@@ -1,0 +1,51 @@
+# --------------------
+# ANDROID STANDARTLARI
+# --------------------
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/codeStyles
+/.idea/deploymentTargetDropDown.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# --------------------
+# ÇIKTI VE GEÇİCİ DOSYALAR (GÜNCELLENDİ)
+# --------------------
+# Tüm APK'lar
+*.apk
+# App Bundle
+*.aab
+# Dex Metadata (Ekran görüntüsündeki o sinsi dosyalar)
+*.dm
+# Build klasörleri
+**/build
+# Release çıktı klasörü (Eğer build dışında oluşursa diye)
+app/release/
+
+# --------------------
+# GÜVENLİK (ANAHTARLAR)
+# --------------------
+*.jks
+*.keystore
+*.p12
+key.properties
+google-services.json
+
+# --------------------
+# DİĞER
+# --------------------
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+*.log
+.navigation/
