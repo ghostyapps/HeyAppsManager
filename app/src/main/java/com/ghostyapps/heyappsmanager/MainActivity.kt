@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             add(AppModel("HeyNotes", "Simple Notes", "com.ghostyapps.heynotes", "ghostyApps", "HeyNotes"))
             add(AppModel("HeyBattery", "Detailed battery statistics", "com.ghostyapps.heybattery", "ghostyApps", "HeyBattery"))
             add(AppModel("HeyWidgets", "Custom Widgets I made for myself", "com.ghostyapps.heywidgets", "ghostyApps", "HeyWidgets"))
-
+            add(AppModel("HeyPlayer", "Simple Music Player", "com.ghostyapps.heyplayer", "ghostyApps", "HeyPlayer"))
             add(AppModel("HeyApps", "This App Manager", "com.ghostyapps.heyappsmanager", "ghostyApps", "HeyAppsManager"))
         }
 

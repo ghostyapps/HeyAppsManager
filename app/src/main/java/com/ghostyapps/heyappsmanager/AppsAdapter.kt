@@ -43,6 +43,7 @@ class AppsAdapter(
             "HeyBattery" -> holder.imgIcon.setImageResource(R.drawable.ic_heybattery_icon)
             "HeyWidgets" -> holder.imgIcon.setImageResource(R.drawable.ic_heywidgets_icon)
             "HeyApps" -> holder.imgIcon.setImageResource(R.drawable.ic_heyapps_icon)
+            "HeyPlayer" -> holder.imgIcon.setImageResource(R.drawable.ic_heyplayer_icon)
             else -> holder.imgIcon.setImageResource(android.R.drawable.sym_def_app_icon)
         }
 
